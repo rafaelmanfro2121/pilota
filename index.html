@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pilota — Aluguel de motos sem complicação</title>
+  <meta name="description" content="Alugue Honda Biz, PCX, CB Twister ou Yamaha MT-07 por semana, mês ou ano. Manutenção, assistência 24h e IPVA inclusos. A Pilota encontra a moto certa em locadoras parceiras.">
+  <meta name="theme-color" content="#0A0A0B">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="Pilota — Aluguel de motos sem complicação">
+  <meta property="og:description" content="Escolha a moto, a gente cuida do resto. Manutenção, assistência 24h e IPVA inclusos.">
+  <meta property="og:image" content="https://rafaelmanfro2121.github.io/pilota/assets/og.png">
+  <meta property="og:url" content="https://rafaelmanfro2121.github.io/pilota/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="nav" id="topo">
+    <div class="nav__inner">
+      <a href="#topo" class="brand" aria-label="Pilota, início">
+        <img src="assets/logo-mark.svg" alt="" width="34" height="34">
+        <span>Pilota</span>
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#motos">Motos</a>
+        <a href="#como">Como funciona</a>
+        <a href="#simulador">Preços</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+      <a href="#alugar" class="btn btn--sm btn--light">Quero alugar</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="mono hero__kicker"><span class="live"></span>Aluguel de motos · 110 a 700cc</p>
+          <h1 class="hero__title">
+            <span class="ln"><span>Alugue sua moto</span></span>
+            <span class="ln"><span>e comece a rodar.</span></span>
+          </h1>
+          <p class="hero__sub">A Pilota encontra a moto certa para você nas locadoras parceiras da sua cidade. Manutenção, assistência 24h e IPVA já estão no preço.</p>
+          <div class="hero__ctas">
+            <a href="#alugar" class="btn btn--accent btn--lg">Quero alugar
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#motos" class="btn btn--ghost btn--lg">Ver as motos</a>
+          </div>
+          <dl class="hero__facts">
+            <div><dt>A partir de</dt><dd>R$ <span data-count="29">29</span><small>/dia</small></dd></div>
+            <div><dt>Fiador</dt><dd>Não precisa</dd></div>
+            <div><dt>Assistência</dt><dd>24 horas</dd></div>
+          </dl>
+        </div>
+        <figure class="hero__media">
+          <div class="hero__img" data-clip>
+            <img src="assets/img/hero.webp" alt="Farol de uma motocicleta Honda aceso ao entardecer" width="1100" height="1954" fetchpriority="high">
+          </div>
+          <figcaption class="mono">Planos semanais, mensais e anuais</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- FAIXA -->
+    <div class="strip" aria-label="O que está incluso">
+      <div class="container strip__inner">
+        <p><span class="mono">01</span>Manutenção inclusa</p>
+        <p><span class="mono">02</span>IPVA e licenciamento pagos</p>
+        <p><span class="mono">03</span>Proteção contra roubo</p>
+        <p><span class="mono">04</span>Troca se der problema</p>
+      </div>
+    </div>
+
+    <!-- MOTOS -->
+    <section class="section" id="motos">
+      <div class="container">
+        <div class="head">
+          <p class="mono eyebrow" data-reveal>Nossas motos</p>
+          <h2 class="h2" data-reveal>Escolha a moto <span class="dim">do seu jeito.</span></h2>
+          <p class="lead" data-reveal>Quatro categorias, com modelos que você já conhece. Cada locadora parceira tem a sua frota, então a moto pode ser o modelo da foto ou um similar.</p>
+        </div>
+
+        <div class="bikes">
+          <article class="bike" data-reveal>
+            <div class="bike__img" data-clip><img src="assets/img/biz-125.webp" alt="Honda Biz 125 vermelha estacionada" width="900" height="1200" loading="lazy"></div>
+            <div class="bike__body">
+              <p class="mono bike__cat">Urbana · 110–125cc</p>
+              <h3>Honda Biz 125 <small>ou similar</small></h3>
+              <dl class="specs">
+                <div><dt>Motor</dt><dd>125cc</dd></div>
+                <div><dt>Consumo</dt><dd>≈ 45 km/l</dd></div>
+                <div><dt>Ideal para</dt><dd>Cidade</dd></div>
+              </dl>
+              <div class="bike__foot">
+                <p class="price"><small>a partir de</small><b>R$ 29</b><small>/dia</small></p>
+                <a href="#simulador" class="link" data-pick="urbana">Simular <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="bike" data-reveal>
+            <div class="bike__img" data-clip><img src="assets/img/pcx-160.webp" alt="Scooter Honda PCX 160 cinza em estrada de terra" width="900" height="1126" loading="lazy"></div>
+            <div class="bike__body">
+              <p class="mono bike__cat">Scooter · 150–160cc</p>
+              <h3>Honda PCX 160 <small>ou similar</small></h3>
+              <dl class="specs">
+                <div><dt>Motor</dt><dd>157cc</dd></div>
+                <div><dt>Consumo</dt><dd>≈ 40 km/l</dd></div>
+                <div><dt>Ideal para</dt><dd>Conforto</dd></div>
+              </dl>
+              <div class="bike__foot">
+                <p class="price"><small>a partir de</small><b>R$ 45</b><small>/dia</small></p>
+                <a href="#simulador" class="link" data-pick="scooter">Simular <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="bike" data-reveal>
+            <div class="bike__img" data-clip><img src="assets/img/twister-250.webp" alt="Honda CB 250F Twister vermelha vista de lado" width="1200" height="800" loading="lazy"></div>
+            <div class="bike__body">
+              <p class="mono bike__cat">Street · 250–300cc</p>
+              <h3>Honda CB Twister 250 <small>ou similar</small></h3>
+              <dl class="specs">
+                <div><dt>Motor</dt><dd>250cc</dd></div>
+                <div><dt>Consumo</dt><dd>≈ 30 km/l</dd></div>
+                <div><dt>Ideal para</dt><dd>Trabalho</dd></div>
+              </dl>
+              <div class="bike__foot">
+                <p class="price"><small>a partir de</small><b>R$ 59</b><small>/dia</small></p>
+                <a href="#simulador" class="link" data-pick="street">Simular <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="bike" data-reveal>
+            <div class="bike__img" data-clip><img src="assets/img/mt-07.webp" alt="Yamaha MT-07 preta e amarela vista de lado" width="1200" height="800" loading="lazy"></div>
+            <div class="bike__body">
+              <p class="mono bike__cat">Premium · 500cc+</p>
+              <h3>Yamaha MT-07 <small>ou similar</small></h3>
+              <dl class="specs">
+                <div><dt>Motor</dt><dd>689cc</dd></div>
+                <div><dt>Consumo</dt><dd>≈ 22 km/l</dd></div>
+                <div><dt>Ideal para</dt><dd>Estrada</dd></div>
+              </dl>
+              <div class="bike__foot">
+                <p class="price"><small>a partir de</small><b>R$ 149</b><small>/dia</small></p>
+                <a href="#simulador" class="link" data-pick="premium">Simular <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAIXA DE IMAGEM -->
+    <section class="band" aria-label="Para quem é">
+      <div class="band__img" aria-hidden="true"><img src="assets/img/entrega.webp" alt="" width="2000" height="1126" loading="lazy" data-parallax></div>
+      <div class="container band__inner">
+        <h2 class="h2 band__title" data-reveal>Feita para quem vive<br>em cima da moto.</h2>
+        <ul class="band__list">
+          <li data-reveal><span class="mono">Entregador</span>Comece a rodar sem comprar moto nem fazer financiamento.</li>
+          <li data-reveal><span class="mono">Trabalho</span>Fuja do ônibus lotado e gaste menos que com corrida de aplicativo.</li>
+          <li data-reveal><span class="mono">Viagem</span>Pegue uma moto maior só pelo tempo que precisar.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="section" id="como">
+      <div class="container">
+        <div class="head">
+          <p class="mono eyebrow" data-reveal>Como funciona</p>
+          <h2 class="h2" data-reveal>Três passos. <span class="dim">Sem papelada sem fim.</span></h2>
+        </div>
+        <div class="steps">
+          <div class="steps__line" aria-hidden="true"><span></span></div>
+          <ol>
+            <li data-reveal>
+              <span class="steps__n mono">01</span>
+              <h3>Fale com a gente</h3>
+              <p>Preencha o formulário em um minuto: nome, WhatsApp, cidade e a moto que você quer.</p>
+            </li>
+            <li data-reveal>
+              <span class="steps__n mono">02</span>
+              <h3>Escolha moto e plano</h3>
+              <p>Mostramos as motos disponíveis perto de você. Você escolhe e paga a primeira semana mais a caução.</p>
+            </li>
+            <li data-reveal>
+              <span class="steps__n mono">03</span>
+              <h3>Retire e saia rodando</h3>
+              <p>Agende o horário, leve sua CNH e saia com a moto revisada e documentada.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMULADOR -->
+    <section class="section section--alt" id="simulador">
+      <div class="container sim">
+        <div class="sim__text">
+          <p class="mono eyebrow" data-reveal>Quanto custa</p>
+          <h2 class="h2" data-reveal>Faça a conta <span class="dim">antes de sair de casa.</span></h2>
+          <p class="lead" data-reveal>Escolha a moto e o plano. Quanto mais tempo, mais barato fica o dia.</p>
+        </div>
+
+        <div class="sim__card" data-reveal>
+          <fieldset class="seg">
+            <legend class="mono">Moto</legend>
+            <label><input type="radio" name="moto" value="urbana" checked><span>Biz 125</span></label>
+            <label><input type="radio" name="moto" value="scooter"><span>PCX 160</span></label>
+            <label><input type="radio" name="moto" value="street"><span>Twister 250</span></label>
+            <label><input type="radio" name="moto" value="premium"><span>MT-07</span></label>
+          </fieldset>
+          <fieldset class="seg">
+            <legend class="mono">Plano</legend>
+            <label><input type="radio" name="plano" value="semanal"><span>Semanal</span></label>
+            <label><input type="radio" name="plano" value="mensal" checked><span>Mensal <em>−10%</em></span></label>
+            <label><input type="radio" name="plano" value="anual"><span>Anual <em>−20%</em></span></label>
+          </fieldset>
+
+          <div class="sim__out" aria-live="polite">
+            <p class="sim__big"><span class="mono">Você paga</span><b>R$ <strong id="sim-dia">32</strong></b><span>por dia</span></p>
+            <dl class="sim__rows">
+              <div><dt>Por semana</dt><dd id="sim-semana">R$ 224</dd></div>
+              <div><dt>Caução <small>devolvida no fim</small></dt><dd id="sim-caucao">R$ 300</dd></div>
+            </dl>
+          </div>
+          <a href="#alugar" class="btn btn--accent btn--block btn--lg">Quero essa moto</a>
+          <p class="fine">Valores de referência. O preço final depende da cidade e da locadora parceira.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INCLUSO -->
+    <section class="section">
+      <div class="container">
+        <div class="head">
+          <p class="mono eyebrow" data-reveal>Já está no preço</p>
+          <h2 class="h2" data-reveal>Você paga o aluguel. <span class="dim">O resto é com a gente.</span></h2>
+        </div>
+        <ul class="rows">
+          <li data-reveal><h3>Manutenção</h3><p>Revisões e troca de óleo por conta da locadora. Se a moto der problema, você recebe outra e volta a rodar.</p></li>
+          <li data-reveal><h3>Assistência 24h</h3><p>Pneu furado ou pane de madrugada? Um telefonema e o guincho vai até você.</p></li>
+          <li data-reveal><h3>IPVA e licenciamento</h3><p>Moto sempre com a documentação em dia. Você não paga imposto nenhum.</p></li>
+          <li data-reveal><h3>Proteção</h3><p>Moto protegida contra roubo e furto, conforme o contrato da locadora.</p></li>
+          <li data-reveal><h3>Troca de categoria</h3><p>Precisa de mais motor? Dá para mudar de moto durante o contrato.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- REQUISITOS -->
+    <section class="section section--alt">
+      <div class="container req">
+        <div>
+          <p class="mono eyebrow" data-reveal>Do que você precisa</p>
+          <h2 class="h2" data-reveal>Só três coisas.</h2>
+          <p class="lead" data-reveal>Sem fiador e, na maioria das locadoras, sem consulta de crédito.</p>
+        </div>
+        <ol class="req__list">
+          <li data-reveal><span class="mono">01</span><div><b>CNH categoria A</b><p>Válida e dentro do prazo.</p></div></li>
+          <li data-reveal><span class="mono">02</span><div><b>Comprovante de endereço</b><p>Na cidade onde vai alugar.</p></div></li>
+          <li data-reveal><span class="mono">03</span><div><b>Primeira semana + caução</b><p>A caução volta para você quando devolver a moto.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="cta" id="alugar">
+      <div class="cta__bg" aria-hidden="true"><img src="assets/img/estrada.webp" alt="" width="1400" height="2100" loading="lazy" data-parallax></div>
+      <div class="container cta__inner">
+        <div class="cta__text">
+          <p class="mono eyebrow" data-reveal>Vamos começar</p>
+          <h2 class="h2 cta__title" data-reveal>Sua próxima moto<br>está a um passo.</h2>
+          <p class="lead" data-reveal>Deixe seu contato. A gente chama no WhatsApp com as motos disponíveis perto de você.</p>
+        </div>
+        <form class="form" id="form" novalidate data-reveal>
+          <div class="field">
+            <label for="f-nome">Seu nome</label>
+            <input id="f-nome" name="nome" autocomplete="name" required>
+            <small class="err">Escreva seu nome.</small>
+          </div>
+          <div class="field">
+            <label for="f-zap">WhatsApp</label>
+            <input id="f-zap" name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="(11) 90000-0000" required>
+            <small class="err">Confira o número com DDD.</small>
+          </div>
+          <div class="field">
+            <label for="f-cidade">Cidade</label>
+            <input id="f-cidade" name="cidade" autocomplete="address-level2" required>
+            <small class="err">Diga sua cidade.</small>
+          </div>
+          <div class="field">
+            <label for="f-moto">Moto</label>
+            <select id="f-moto" name="moto">
+              <option value="urbana">Honda Biz 125 ou similar</option>
+              <option value="scooter">Honda PCX 160 ou similar</option>
+              <option value="street">Honda CB Twister 250 ou similar</option>
+              <option value="premium">Yamaha MT-07 ou similar</option>
+              <option value="nao-sei">Ainda não sei</option>
+            </select>
+          </div>
+          <button class="btn btn--accent btn--block btn--lg" type="submit">Enviar
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <div class="form__ok" role="status" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <p><b>Recebemos, <span id="ok-nome"></span>.</b> Em breve a gente chama você no WhatsApp.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="duvidas">
+      <div class="container faq">
+        <div>
+          <p class="mono eyebrow" data-reveal>Dúvidas</p>
+          <h2 class="h2" data-reveal>Perguntas frequentes.</h2>
+        </div>
+        <div class="faq__list">
+          <details data-reveal><summary>Posso alugar com o nome sujo?</summary><p>Em muitos casos, sim. As locadoras parceiras não pedem fiador e várias não fazem consulta de crédito. Fale com a gente que verificamos na sua cidade.</p></details>
+          <details data-reveal><summary>Quanto tempo demora para pegar a moto?</summary><p>Depois que o cadastro é aprovado, a retirada costuma ser agendada em poucos dias, conforme a disponibilidade da sua região.</p></details>
+          <details data-reveal><summary>Vou receber exatamente o modelo da foto?</summary><p>Os modelos mostrados são exemplos de cada categoria. Cada locadora tem a sua frota, então você pode receber o mesmo modelo ou um similar, sempre da categoria escolhida.</p></details>
+          <details data-reveal><summary>O que está incluso no aluguel?</summary><p>Manutenção preventiva, assistência 24h, IPVA, licenciamento e proteção contra roubo. Combustível e multas ficam por sua conta.</p></details>
+          <details data-reveal><summary>E se a moto quebrar?</summary><p>Você aciona o suporte. A moto vai para a oficina e, se precisar, você recebe outra para continuar rodando.</p></details>
+          <details data-reveal><summary>O que a Pilota faz?</summary><p>A Pilota é uma plataforma de intermediação: conectamos você às locadoras parceiras da sua cidade e acompanhamos o aluguel do começo ao fim.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#topo" class="brand" aria-label="Pilota, voltar ao topo">
+          <img src="assets/logo-mark.svg" alt="" width="34" height="34">
+          <span>Pilota</span>
+        </a>
+        <p>Aluguel de motos sem complicação.</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <a href="#motos">Motos</a>
+        <a href="#como">Como funciona</a>
+        <a href="#simulador">Preços</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+    </div>
+    <div class="container footer__legal">
+      <p>A Pilota intermedeia o aluguel: as motos pertencem às locadoras parceiras, responsáveis pelo contrato. Modelos são exemplos de cada categoria e valores são de referência, sujeitos à disponibilidade na região. Marcas citadas pertencem aos seus fabricantes. Fotos: Pexels.</p>
+      <p>© <span id="ano">2026</span> Pilota</p>
+    </div>
+  </footer>
+
+  <a href="#alugar" class="mobile-cta btn btn--accent btn--lg">Quero alugar</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
