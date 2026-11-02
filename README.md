@@ -5,9 +5,9 @@ Landing page da **Pilota**, plataforma que intermedeia o aluguel de motos (110cc
 **Site:** https://rafaelmanfro2121.github.io/pilota/
 
 ## O que tem
-- Abertura animada: a moto entra na tela, rodas girando, estrada em movimento
-- "Como funciona" em 3 passos, com uma moto percorrendo a estrada conforme a rolagem (desktop)
-- Motos por cilindrada (Urbana, Trabalho, Aventura, Estrada) com cards 3D
+- Visual escuro e editorial (Inter Tight, Inter, JetBrains Mono), fotos reais e rolagem suave
+- Motos por categoria com modelos reais de exemplo: Honda Biz 125, Honda PCX 160, Honda CB Twister 250 e Yamaha MT-07 ("ou similar")
+- Abertura com revelação do título e da foto, fotos que abrem como cortina, parallax nas fotos de fundo
 - Simulador de preço por moto e plano (semanal, mensal, anual)
 - Benefícios, requisitos, formulário de contato com validação e perguntas frequentes
 - Botão fixo "Quero alugar" no celular
@@ -16,9 +16,10 @@ Landing page da **Pilota**, plataforma que intermedeia o aluguel de motos (110cc
 ## Estrutura
 ```
 index.html         página
-styles.css         visual (tema escuro, laranja #FF6A1A, Unbounded + Outfit)
-main.js            simulador, formulário e animações (GSAP + ScrollTrigger)
+styles.css         visual (tema escuro, laranja #FF5F1F)
+main.js            simulador, formulário e animações (GSAP + ScrollTrigger + Lenis)
 assets/            logo, favicon, ícones e imagem de compartilhamento (og.png)
+assets/img/        fotos (Pexels, uso comercial livre) em WebP
 ```
 
 ## Ajustes rápidos
